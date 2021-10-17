@@ -2,9 +2,9 @@
 
 Django french location API
 
-To access [API](http://127.0.0.1:8000/locations/regions)  
+Access [API](http://127.0.0.1:8000/locations/regions)  
 
-To access [API with json format](http://127.0.0.1:8000/locations/regions/?format=json) :  
+Access [API with json format](http://127.0.0.1:8000/locations/regions/?format=json)   
 
 ## Install and init postgreSQL
 
