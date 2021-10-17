@@ -61,7 +61,7 @@ To run venv from main directory :
 To exit venv : 
 
 ```
-    deactivate
+    exit
 ```
 
 ## Import data
