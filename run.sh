@@ -42,7 +42,13 @@ function init_project {
 
 function import_data {
     nicecho "strong" "** Import data **"
-    pipenv run python ./backend/manage.py runscript imports 
+    pipenv run python ./backend/manage.py runscript imports --script-args csv_to_db
+}
+
+
+function osm_data {
+    nicecho "strong" "** Create or update osm_data.csv **"
+    pipenv run python ./backend/manage.py runscript imports --script-args osm_data
 }
 
 function run_venv {
@@ -71,6 +77,7 @@ function usage {
         echo "   * init_project                        - Initiate project."
         echo "   * run_venv                            - Launching virtual environment."
         echo "   * import_data                         - Import data."
+        echo "   * osm_data                            - Create or update osm_data.csv."
         echo "   * run_server                          - Launching Django server."
         echo "   * django_check                        - Check project's conformity."
 }
@@ -91,7 +98,10 @@ case "$1" in
         ;;
     import_data)
         import_data
-        ;;      
+        ;;     
+    osm_data)
+        osm_data
+        ;; 
     run_server)
         run_server
         ;;    
