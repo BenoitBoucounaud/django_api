@@ -1,6 +1,6 @@
-# Django API
+# Locations API
 
-Django french location API
+French locations API
 
 Next steps : 
 - Docker
