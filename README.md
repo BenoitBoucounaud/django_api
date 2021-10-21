@@ -35,7 +35,7 @@ sudo apt install pipenv
 To initialise the project from main directory :
 
 ```
-    source ./run.sh init_project
+    ./run.sh init_project
 ```
 
 Packages are : 
@@ -51,7 +51,7 @@ Packages are :
 To run venv from main directory : 
 
 ```
-    source ./run.sh run_venv
+    ./run.sh run_venv
 ```
 
 To exit venv : 

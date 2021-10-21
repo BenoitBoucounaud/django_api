@@ -31,7 +31,6 @@ function error_stop {
 
 
 function init_project {
-    nicecho "error" "** To init the project you need to type 'source ./run.sh init' **"
     nicecho "strong" "** Init pipenv **"
     pipenv --three
     nicecho "strong" "** Install packages **"
@@ -52,7 +51,6 @@ function osm_data {
 }
 
 function run_venv {
-    nicecho "error" "** To run venv you need to type 'source ./run.sh run_venv' **"
     nicecho "strong" "** Running venv **"
     nicecho "noraml" "** Type deactivate to close venv **"
     pipenv shell
