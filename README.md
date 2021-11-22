@@ -2,10 +2,6 @@
 
 French locations API
 
-Next steps : 
-- Docker
-- Angular home page
-
 Access [API](http://127.0.0.1:8000/locations/regions)  
 
 Access [API with json format](http://127.0.0.1:8000/locations/regions/?format=json)   
