@@ -34,7 +34,7 @@ function init_project {
     nicecho "strong" "** Init pipenv **"
     pipenv --three
     nicecho "strong" "** Install packages **"
-    pipenv install Django psycopg2 djangorestframework pandas requests django-extensions
+    pipenv install Django==3.2.9 psycopg2 djangorestframework pandas requests django-extensions
     pipenv run ./backend/manage.py makemigrations
     pipenv run ./backend/manage.py migrate
 }
